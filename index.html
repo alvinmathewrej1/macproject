@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<!-- saved from url=(0141)file:///Users/alvinmathewreji/Downloads/INTEGRAL%20%E2%80%94%20Mathematics%20in%20Motion%20_%20Industrial%20Integration%20Virtual%20Labs.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
-body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
-</style>
-
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#071022">
 <title>INTEGRAL — Mathematics in Motion | Industrial Integration Virtual Labs</title>
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-<link href="./index_files/css2" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--teal:#4C8DFF;--navy:#04101F;--lime:#F3C33F;--bg:#071126;--panel:#0B1730;--panel2:#0F1E3C;--line:rgba(76,141,255,.22);--line2:rgba(157,203,255,.22);--alarm:#FF9B4A;--alarm-hot:#FF5F56;--sun:#FFB03A;--muted:#8FA5C4;--text:#E9F1FC;--mono:'DM Mono',monospace;--body:'Manrope',system-ui,sans-serif;--display:'Space Grotesk',system-ui,sans-serif;--radius:18px;--shadow:0 24px 80px rgba(0,0,0,.34);--ease:cubic-bezier(.2,.8,.2,1)}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px;background:var(--bg)}body{margin:0;color:var(--text);font-family:var(--body);background:radial-gradient(ellipse at 75% 0%,rgba(76,141,255,.08),transparent 32%),radial-gradient(ellipse at 0% 45%,rgba(157,203,255,.035),transparent 34%),var(--bg);overflow-x:hidden;-webkit-font-smoothing:antialiased}body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:linear-gradient(rgba(76,141,255,.026) 1px,transparent 1px),linear-gradient(90deg,rgba(76,141,255,.026) 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(to bottom,black,transparent 90%)}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--lime);outline-offset:3px}::selection{background:var(--teal);color:var(--navy)}
@@ -408,12 +406,24 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
 </style>
 
 </head>
-<body class="">
-
-<div class="progressline" id="progressline" style="width: 63.1374%;"></div><div id="cursor" aria-hidden="true" style="left: 1585.99px; top: 27.5273px; opacity: 1;" class=""></div>
+<body class="intro-lock">
+<div class="intro-splash" id="introSplash" aria-label="Integration in Industry — INTEGRAL Mathematics in Motion introduction">
+  <div class="intro-grid" aria-hidden="true"></div>
+  <div class="intro-core">
+    <div class="intro-kicker">INTEGRAL / MATHEMATICS IN MOTION</div>
+    <div class="intro-word">
+      <strong class="intro-main"><span class="intro-industrial">INTEGRATION</span><span class="intro-integral">IN INDUSTRY<span class="intro-period">.</span></span></strong>
+    </div>
+    <div class="intro-rule"><i></i></div>
+    <p>FROM MATHEMATICAL THEORY TO INDUSTRIAL REALITY.</p>
+    <div class="intro-sequence"><span>OBSERVE</span><b>→</b><span>EXPERIMENT</span><b>→</b><span>DISCOVER</span></div>
+  </div>
+  <div class="intro-bottom"><span>MAC / ENGINEERING MATHEMATICS</span><button type="button" id="introSkip">SKIP INTRO ↗</button></div>
+</div>
+<div class="progressline" id="progressline"></div><div id="cursor" aria-hidden="true"></div>
 <nav class="nav">
-  <a class="brand" href="http://127.0.0.1:50328/index.html#home" aria-label="Integral home"><span class="brand-mark"><span>∫</span></span><span>INTEGRAL<small>MATHEMATICS IN MOTION</small></span></a>
-  <div class="navlinks" id="navlinks"><a href="http://127.0.0.1:50328/index.html#applications" class="">Industries</a><a href="http://127.0.0.1:50328/index.html#labs" class="">Virtual labs</a><a href="http://127.0.0.1:50328/index.html#twin" class="">3D twin</a><a href="http://127.0.0.1:50328/index.html#theory" class="active" aria-current="true">Theory</a><a href="http://127.0.0.1:50328/index.html#future-scope" class="">Future scope</a><a href="http://127.0.0.1:50328/index.html#challenges" class="">Challenges</a><a href="http://127.0.0.1:50328/index.html#glossary" class="">Glossary</a></div>
+  <a class="brand" href="#home" aria-label="Integral home"><span class="brand-mark"><span>∫</span></span><span>INTEGRAL<small>MATHEMATICS IN MOTION</small></span></a>
+  <div class="navlinks" id="navlinks"><a href="#applications">Industries</a><a href="#labs">Virtual labs</a><a href="#twin">3D twin</a><a href="#theory">Theory</a><a href="#future-scope">Future scope</a><a href="#challenges">Challenges</a><a href="#glossary">Glossary</a></div>
   <div class="navright"><span class="navstatus"><i class="status-dot"></i>SIMULATION ONLINE</span><button class="help-nav" id="navHelpBtn" type="button">HELP / GUIDE <span>↗</span></button><button class="menu-btn" id="menuBtn">MENU</button></div>
 </nav>
 <header class="hero" id="home">
@@ -430,7 +440,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
     <h1>INTEGRATION<br><span class="outline">IN INDUSTRY.</span></h1>
     <div class="mac-project-label"><span class="mac-label-dot"></span> MAC LAB EXPERIMENT <b>·</b> INTEGRATION</div>
     <p class="hero-sub">Discover how calculus powers modern engineering systems. Explore accumulation, model real processes, and turn mathematical theory into industrial insight.</p>
-    <div class="hero-cta"><a class="btn" href="http://127.0.0.1:50328/index.html#labs">ENTER VIRTUAL LABS <span class="icon-arrow">↗</span></a><a class="btn ghost" href="http://127.0.0.1:50328/index.html#applications">EXPLORE INDUSTRIAL APPLICATIONS <span class="icon-arrow">↓</span></a></div>
+    <div class="hero-cta"><a class="btn" href="#labs">ENTER VIRTUAL LABS <span class="icon-arrow">↗</span></a><a class="btn ghost" href="#applications">EXPLORE INDUSTRIAL APPLICATIONS <span class="icon-arrow">↓</span></a></div>
     <div class="project-credits">
       <div class="credits-head"><span>PROJECT TEAM</span></div>
       <div class="team-names"><span>ALVIN MATHEW REJI</span><span>YASH JAIMAN</span><span>TARUN NAIDU</span><span>VIDHAN SURESH</span><span>OMANG</span><span>DEV BISHT</span></div>
@@ -438,7 +448,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
     <div class="hero-meta"><div class="meta-item"><b data-count="06">06</b><span>Interactive laboratories</span></div><div class="meta-item"><b data-count="06">06</b><span>Industry domains</span></div><div class="meta-item"><b>∫ f(x) dx</b><span>Accumulation engine</span></div></div>
   </div>
   <div class="hero-visual">
-    <canvas class="hero-canvas" id="heroCanvas" aria-label="Animated mathematical curve and integral area" width="1609" height="978" style="transform: translate3d(0px, 79.6px, 0px);"></canvas>
+    <canvas class="hero-canvas" id="heroCanvas" aria-label="Animated mathematical curve and integral area"></canvas>
     <div class="hero-float float-a"><span>RIEMANN ESTIMATE / ∫₀³ x² dx</span><strong id="heroIntegral">8.9648</strong></div>
     <div class="hero-float float-b"><span>MODEL STATUS</span><strong>CONVERGING</strong></div>
     <div class="hero-float float-c"><span>MIDPOINT ERROR / n = 8</span><strong id="heroError">0.0352</strong></div>
@@ -448,35 +458,35 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
 <div class="ticker"><div class="ticker-track" id="tickerTrack"><span><b>∫</b> ACCUMULATION ENGINE</span><span>TRAPEZOIDAL RULE / ACTIVE</span><span><b>01</b> SOLAR ENERGY</span><span>DOUBLE INTEGRALS / VOLUME</span><span><b>02</b> PROCESS CONTROL</span><span>DISPLACEMENT = ∫ VELOCITY</span><span><b>03</b> ROBOTICS</span><span>CHARGE = ∫ CURRENT</span><span><b>04</b> ELECTRICAL SYSTEMS</span><span><b>∫</b> ACCUMULATION ENGINE</span><span>TRAPEZOIDAL RULE / ACTIVE</span><span><b>01</b> SOLAR ENERGY</span><span>DOUBLE INTEGRALS / VOLUME</span><span><b>02</b> PROCESS CONTROL</span><span>DISPLACEMENT = ∫ VELOCITY</span><span><b>03</b> ROBOTICS</span><span>CHARGE = ∫ CURRENT</span><span><b>04</b> ELECTRICAL SYSTEMS</span></div></div>
 
 <section class="section" id="applications">
-  <div class="section-head reveal in" style="transition-delay: 0ms;"><div><div class="eyebrow">01 / INDUSTRIAL APPLICATIONS</div><h2>CALCULUS IS<br>ALREADY AT WORK.</h2></div><p>Integration converts changing quantities into meaningful totals — the energy generated, fluid stored, distance travelled, and charge delivered.</p></div>
+  <div class="section-head reveal"><div><div class="eyebrow">01 / INDUSTRIAL APPLICATIONS</div><h2>CALCULUS IS<br>ALREADY AT WORK.</h2></div><p>Integration converts changing quantities into meaningful totals — the energy generated, fluid stored, distance travelled, and charge delivered.</p></div>
   <div class="app-grid">
-    <article class="app-card reveal in" data-index="01" style="transition-delay: 65ms;"><div class="app-icon">PV</div><h3>Renewable energy</h3><p class="problem">A solar plant receives changing irradiance throughout the day. Engineers integrate power over time to determine total energy yield.</p><div class="formula">E = ∫₀ᵀ P(t) dt</div><div class="vars">P(t): instantaneous power [kW] · t: time [h] · E: energy [kWh]</div><div class="app-control"><label>Peak output <output id="appSolarVal">120 kW</output></label><input type="range" min="20" max="300" value="120" data-app="solar" style="--pct: 35.71%;"><div class="app-result">Idealised clear-day yield: <b id="appSolarOut">917</b> kWh</div></div></article>
-    <article class="app-card reveal in" data-index="02" style="transition-delay: 130ms;"><div class="app-icon">Q̇</div><h3>Chemical &amp; process engineering</h3><p class="problem">Process tanks receive time-varying inflow. Integration tracks the accumulated material and helps prevent overflow.</p><div class="formula">V(t) = V₀ + ∫₀ᵗ Q(τ) dτ</div><div class="vars">Q(t): volumetric flow [L/min] · V: volume [L] · τ: time [min]</div><div class="app-control"><label>Inlet flow rate <output id="appFlowVal">35 L/min</output></label><input type="range" min="5" max="100" value="35" data-app="flow" style="--pct: 31.58%;"><div class="app-result">Accumulated in 30 min: <b id="appFlowOut">1,050</b> L</div></div></article>
-    <article class="app-card reveal in" data-index="03" style="transition-delay: 195ms;"><div class="app-icon">v(t)</div><h3>Robotics &amp; automation</h3><p class="problem">A controller measures velocity. Integrating the velocity profile gives displacement, which determines where the robot will be.</p><div class="formula">Δx = ∫₀ᵀ v(t) dt</div><div class="vars">v(t): velocity [m/s] · t: time [s] · Δx: displacement [m]</div><div class="app-control"><label>Constant velocity <output id="appVelVal">2.5 m/s</output></label><input type="range" min="0.5" max="8" step=".1" value="2.5" data-app="velocity" style="--pct: 26.67%;"><div class="app-result">Displacement in 12 s: <b id="appVelOut">30.0</b> m</div></div></article>
-    <article class="app-card reveal in" data-index="04" style="transition-delay: 0ms;"><div class="app-icon">Σ</div><h3>Manufacturing</h3><p class="problem">Production rate varies with machine speed, changeovers and downtime. The integral gives the total units produced over a shift.</p><div class="formula">N = ∫₀ᵀ r(t) dt</div><div class="vars">r(t): production rate [units/h] · T: operating time [h] · N: units</div><div class="app-control"><label>Average production <output id="appProdVal">450 units/h</output></label><input type="range" min="100" max="900" value="450" data-app="production" style="--pct: 43.75%;"><div class="app-result">Output in an 8 h shift: <b id="appProdOut">3,600</b> units</div></div></article>
-    <article class="app-card reveal in" data-index="05" style="transition-delay: 65ms;"><div class="app-icon">I(t)</div><h3>Electrical engineering</h3><p class="problem">Current changes as a circuit operates. Integrating current gives transferred charge; integrating power gives consumed energy.</p><div class="formula">q = ∫ I(t) dt · E = ∫ P(t) dt</div><div class="vars">I: current [A] · q: charge [C] · P: power [W] · E: energy [J]</div><div class="app-control"><label>Current <output id="appCurrentVal">8 A</output></label><input type="range" min="1" max="30" value="8" data-app="current" style="--pct: 24.14%;"><div class="app-result">Charge in 1 h: <b id="appCurrentOut">28,800</b> C</div></div></article>
-    <article class="app-card reveal in" data-index="06" style="transition-delay: 130ms;"><div class="app-icon">∬</div><h3>Civil &amp; structural engineering</h3><p class="problem">A non-uniform pressure or load acts over a surface. Double integration estimates the resultant force or total material quantity.</p><div class="formula">F = ∬ᴬ p(x,y) dA</div><div class="vars">p(x,y): pressure [kPa] · dA: area element [m²] · F: force [kN]</div><div class="app-control"><label>Uniform pressure <output id="appPressVal">12 kPa</output></label><input type="range" min="2" max="40" value="12" data-app="pressure" style="--pct: 26.32%;"><div class="app-result">Force over 20 m²: <b id="appPressOut">240</b> kN</div></div></article>
+    <article class="app-card reveal" data-index="01"><div class="app-icon">PV</div><h3>Renewable energy</h3><p class="problem">A solar plant receives changing irradiance throughout the day. Engineers integrate power over time to determine total energy yield.</p><div class="formula">E = ∫₀ᵀ P(t) dt</div><div class="vars">P(t): instantaneous power [kW] · t: time [h] · E: energy [kWh]</div><div class="app-control"><label>Peak output <output id="appSolarVal">120 kW</output></label><input type="range" min="20" max="300" value="120" data-app="solar"><div class="app-result">Idealised clear-day yield: <b id="appSolarOut">917</b> kWh</div></div></article>
+    <article class="app-card reveal" data-index="02"><div class="app-icon">Q̇</div><h3>Chemical & process engineering</h3><p class="problem">Process tanks receive time-varying inflow. Integration tracks the accumulated material and helps prevent overflow.</p><div class="formula">V(t) = V₀ + ∫₀ᵗ Q(τ) dτ</div><div class="vars">Q(t): volumetric flow [L/min] · V: volume [L] · τ: time [min]</div><div class="app-control"><label>Inlet flow rate <output id="appFlowVal">35 L/min</output></label><input type="range" min="5" max="100" value="35" data-app="flow"><div class="app-result">Accumulated in 30 min: <b id="appFlowOut">1,050</b> L</div></div></article>
+    <article class="app-card reveal" data-index="03"><div class="app-icon">v(t)</div><h3>Robotics & automation</h3><p class="problem">A controller measures velocity. Integrating the velocity profile gives displacement, which determines where the robot will be.</p><div class="formula">Δx = ∫₀ᵀ v(t) dt</div><div class="vars">v(t): velocity [m/s] · t: time [s] · Δx: displacement [m]</div><div class="app-control"><label>Constant velocity <output id="appVelVal">2.5 m/s</output></label><input type="range" min="0.5" max="8" step=".1" value="2.5" data-app="velocity"><div class="app-result">Displacement in 12 s: <b id="appVelOut">30.0</b> m</div></div></article>
+    <article class="app-card reveal" data-index="04"><div class="app-icon">Σ</div><h3>Manufacturing</h3><p class="problem">Production rate varies with machine speed, changeovers and downtime. The integral gives the total units produced over a shift.</p><div class="formula">N = ∫₀ᵀ r(t) dt</div><div class="vars">r(t): production rate [units/h] · T: operating time [h] · N: units</div><div class="app-control"><label>Average production <output id="appProdVal">450 units/h</output></label><input type="range" min="100" max="900" value="450" data-app="production"><div class="app-result">Output in an 8 h shift: <b id="appProdOut">3,600</b> units</div></div></article>
+    <article class="app-card reveal" data-index="05"><div class="app-icon">I(t)</div><h3>Electrical engineering</h3><p class="problem">Current changes as a circuit operates. Integrating current gives transferred charge; integrating power gives consumed energy.</p><div class="formula">q = ∫ I(t) dt · E = ∫ P(t) dt</div><div class="vars">I: current [A] · q: charge [C] · P: power [W] · E: energy [J]</div><div class="app-control"><label>Current <output id="appCurrentVal">8 A</output></label><input type="range" min="1" max="30" value="8" data-app="current"><div class="app-result">Charge in 1 h: <b id="appCurrentOut">28,800</b> C</div></div></article>
+    <article class="app-card reveal" data-index="06"><div class="app-icon">∬</div><h3>Civil & structural engineering</h3><p class="problem">A non-uniform pressure or load acts over a surface. Double integration estimates the resultant force or total material quantity.</p><div class="formula">F = ∬ᴬ p(x,y) dA</div><div class="vars">p(x,y): pressure [kPa] · dA: area element [m²] · F: force [kN]</div><div class="app-control"><label>Uniform pressure <output id="appPressVal">12 kPa</output></label><input type="range" min="2" max="40" value="12" data-app="pressure"><div class="app-result">Force over 20 m²: <b id="appPressOut">240</b> kN</div></div></article>
   </div>
 </section>
 
 <section class="section" id="labs">
-  <div class="section-head reveal in" style="transition-delay: 195ms;"><div><div class="eyebrow">02 / VIRTUAL LABORATORY</div><h2>CHANGE A VARIABLE.<br>SEE THE SYSTEM RESPOND.</h2></div><p>Six connected engineering experiments — including a sensor-log workbench that integrates measured samples. Adjust the controls, watch live plots update, and inspect the accumulated quantity with correct units.</p></div>
-  <div class="lab-shell reveal in" style="transition-delay: 0ms;">
-    <div class="lab-top"><div class="lab-top-left"><span class="status-dot"></span><span style="font:10px var(--mono);letter-spacing:.12em">INTEGRAL / SIMULATION ENVIRONMENT</span></div><span class="live-pill" id="labLiveStatus">2 / 6 LABS ACTIVE</span></div>
-    <div class="lab-nav" role="tablist" aria-label="Virtual laboratories"><button class="lab-tab active" id="tab-solar" data-lab="solar" role="tab" aria-controls="lab-solar" aria-selected="true" tabindex="0">01 / SOLAR</button><button class="lab-tab done" id="tab-tank" data-lab="tank" role="tab" aria-controls="lab-tank" aria-selected="false" tabindex="-1">02 / FLUID</button><button class="lab-tab" id="tab-robot" data-lab="robot" role="tab" aria-controls="lab-robot" aria-selected="false" tabindex="-1">03 / ROBOTICS</button><button class="lab-tab" id="tab-riemann" data-lab="riemann" role="tab" aria-controls="lab-riemann" aria-selected="false" tabindex="-1">04 / RIEMANN</button><button class="lab-tab" id="tab-electric" data-lab="electric" role="tab" aria-controls="lab-electric" aria-selected="false" tabindex="-1">05 / ELECTRICAL</button><button class="lab-tab done" id="tab-data" data-lab="data" role="tab" aria-controls="lab-data" aria-selected="false" tabindex="-1">06 / SENSOR LOG</button></div>
+  <div class="section-head reveal"><div><div class="eyebrow">02 / VIRTUAL LABORATORY</div><h2>CHANGE A VARIABLE.<br>SEE THE SYSTEM RESPOND.</h2></div><p>Six connected engineering experiments — including a sensor-log workbench that integrates measured samples. Adjust the controls, watch live plots update, and inspect the accumulated quantity with correct units.</p></div>
+  <div class="lab-shell reveal">
+    <div class="lab-top"><div class="lab-top-left"><span class="status-dot"></span><span style="font:10px var(--mono);letter-spacing:.12em">INTEGRAL / SIMULATION ENVIRONMENT</span></div><span class="live-pill" id="labLiveStatus">SYSTEM READY</span></div>
+    <div class="lab-nav" role="tablist" aria-label="Virtual laboratories"><button class="lab-tab active" id="tab-solar" data-lab="solar" role="tab" aria-controls="lab-solar" aria-selected="true">01 / SOLAR</button><button class="lab-tab" id="tab-tank" data-lab="tank" role="tab" aria-controls="lab-tank" aria-selected="false">02 / FLUID</button><button class="lab-tab" id="tab-robot" data-lab="robot" role="tab" aria-controls="lab-robot" aria-selected="false">03 / ROBOTICS</button><button class="lab-tab" id="tab-riemann" data-lab="riemann" role="tab" aria-controls="lab-riemann" aria-selected="false">04 / RIEMANN</button><button class="lab-tab" id="tab-electric" data-lab="electric" role="tab" aria-controls="lab-electric" aria-selected="false">05 / ELECTRICAL</button><button class="lab-tab" id="tab-data" data-lab="data" role="tab" aria-controls="lab-data" aria-selected="false">06 / SENSOR LOG</button></div>
     <div class="lab-panel" id="lab-riemann" role="tabpanel" aria-labelledby="tab-riemann">
       <div class="lab-grid">
         <div class="control-panel"><h3>Numerical integration</h3><p>Approximate the signed area under a function. Increase the subinterval count and compare the numerical estimate with the analytical result.</p>
           <div class="control"><label for="rFunc">Mathematical function</label><select id="rFunc"><option value="square">f(x) = x²</option><option value="sine">f(x) = sin(x)</option><option value="exp">f(x) = eˣ</option><option value="linear">f(x) = 2x + 1</option></select></div>
-          <div class="control"><label for="rA">Lower limit a <output id="rAVal">0.00</output></label><input id="rA" type="range" min="-2" max="2" step=".1" value="0" style="--pct: 50.00%;"></div>
-          <div class="control"><label for="rB">Upper limit b <output id="rBVal">3.00</output></label><input id="rB" type="range" min="0.5" max="5" step=".1" value="3" style="--pct: 55.56%;"></div>
-          <div class="control"><label for="rN">Rectangles n <output id="rNVal">8</output></label><input id="rN" type="range" min="2" max="80" step="1" value="8" style="--pct: 7.69%;"></div>
+          <div class="control"><label for="rA">Lower limit a <output id="rAVal">0.00</output></label><input id="rA" type="range" min="-2" max="2" step=".1" value="0"></div>
+          <div class="control"><label for="rB">Upper limit b <output id="rBVal">3.00</output></label><input id="rB" type="range" min="0.5" max="5" step=".1" value="3"></div>
+          <div class="control"><label for="rN">Rectangles n <output id="rNVal">8</output></label><input id="rN" type="range" min="2" max="80" step="1" value="8"></div>
           <div class="control"><label>Sampling rule</label><div class="segmented" id="rMethod"><button data-method="left">LEFT</button><button data-method="right">RIGHT</button><button data-method="mid" class="active">MIDPOINT</button></div></div>
           <div class="lab-actions"><button class="btn small" id="rAnimate">ANIMATE CONVERGENCE ↗</button><button class="btn ghost small" id="rReset">RESET</button></div><div class="control-help">Signed area is used: regions below the x-axis contribute negatively. Use the plot to inspect the sample height of each rectangle.</div>
         </div>
         <div>
-          <div class="readout-grid"><div class="readout"><span>Numerical estimate</span><b id="rApprox">8.9648</b><small>area units</small></div><div class="readout"><span>Analytical integral</span><b id="rExact">9.0000</b><small>exact value</small></div><div class="readout"><span>Absolute error</span><b id="rError">0.0352</b><small>area units</small></div></div>
-          <div class="plot-box"><div class="plot-head"><span>FUNCTION / RIEMANN PARTITION</span><small id="rPlotMeta">x² · n = 8 · mid</small></div><canvas class="plot" id="riemannPlot" aria-label="Riemann sum plot" width="2" height="2"></canvas><div class="plot-legend"><span><i class="legend-dot"></i>Function</span><span><i class="legend-dot lime"></i>Sample rectangles</span><span><i class="legend-dot dim"></i>Zero axis</span></div></div>
+          <div class="readout-grid"><div class="readout"><span>Numerical estimate</span><b id="rApprox">9.000</b><small>area units</small></div><div class="readout"><span>Analytical integral</span><b id="rExact">9.000</b><small>exact value</small></div><div class="readout"><span>Absolute error</span><b id="rError">0.000</b><small>area units</small></div></div>
+          <div class="plot-box"><div class="plot-head"><span>FUNCTION / RIEMANN PARTITION</span><small id="rPlotMeta">n = 8 · midpoint</small></div><canvas class="plot" id="riemannPlot" aria-label="Riemann sum plot"></canvas><div class="plot-legend"><span><i class="legend-dot"></i>Function</span><span><i class="legend-dot lime"></i>Sample rectangles</span><span><i class="legend-dot dim"></i>Zero axis</span></div></div>
           <div class="method-note"><strong>Engineering interpretation:</strong> a continuous process is represented by finite measurements. More partitions generally improve the estimate, but the exact convergence depends on the function and rule.</div>
         </div>
       </div>
@@ -484,65 +494,65 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
     <div class="lab-panel active" id="lab-solar" role="tabpanel" aria-labelledby="tab-solar">
       <div class="lab-grid">
         <div class="control-panel"><h3>Solar energy yield</h3><p>Estimate the energy delivered by a solar array as irradiance changes through daylight and clouds reduce incoming sunlight.</p>
-          <div class="control"><label for="sPeak">Peak output <output id="sPeakVal">120 kW</output></label><input id="sPeak" type="range" min="20" max="300" value="120" style="--pct: 35.71%;"></div>
-          <div class="control"><label for="sDay">Daylight duration <output id="sDayVal">12 h</output></label><input id="sDay" type="range" min="6" max="14" step=".5" value="12" style="--pct: 75.00%;"></div>
-          <div class="control"><label for="sCloud">Cloud coverage <output id="sCloudVal">20%</output></label><input id="sCloud" type="range" min="0" max="85" value="20" style="--pct: 23.53%;"></div>
-          <div class="control"><label for="sElapsed">Elapsed daylight <output id="sElapsedVal">12%</output></label><input id="sElapsed" type="range" min="0" max="100" value="0" style="--pct: 12.00%;"></div>
+          <div class="control"><label for="sPeak">Peak output <output id="sPeakVal">120 kW</output></label><input id="sPeak" type="range" min="20" max="300" value="120"></div>
+          <div class="control"><label for="sDay">Daylight duration <output id="sDayVal">12 h</output></label><input id="sDay" type="range" min="6" max="14" step=".5" value="12"></div>
+          <div class="control"><label for="sCloud">Cloud coverage <output id="sCloudVal">20%</output></label><input id="sCloud" type="range" min="0" max="85" value="20"></div>
+          <div class="control"><label for="sElapsed">Elapsed daylight <output id="sElapsedVal">100%</output></label><input id="sElapsed" type="range" min="0" max="100" value="0"></div>
           <div class="lab-actions"><button class="btn small" id="sPlay">PAUSE COUNTER ‖</button><button class="btn ghost small" id="sReset">RESET</button></div><div class="control-help">Model: P(t) = Pₚₑₐₖ · sin(πt/T) · (1 − c), for 0 ≤ t ≤ T. Idealised smooth clear-day profile; real output depends on orientation, temperature and system losses.</div>
         </div>
         <div>
-          <div class="readout-grid"><div class="readout"><span>Accumulated energy</span><b id="sEnergy">25.8</b><small>kWh</small></div><div class="readout"><span>Current power</span><b id="sPower">35.3</b><small>kW</small></div><div class="readout"><span>Daily potential</span><b id="sTotal">733.4</b><small>kWh</small></div></div>
-          <div class="simulation-stage"><span class="stage-label">SOLAR ARRAY / FIELD VIEW</span><canvas id="solarStage" aria-label="Animated solar farm" width="2260" height="640"></canvas><span class="stage-scale">SUN TRACK / ARRAY OUTPUT</span></div>
-          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>POWER PROFILE / TIME</span><small>P(t) in kW</small></div><canvas class="plot" id="solarPlot" aria-label="Solar power graph" width="2212" height="520"></canvas><div class="plot-legend"><span><i class="legend-dot"></i>Power profile</span><span><i class="legend-dot lime"></i>Accumulated interval</span></div></div><div class="method-note" id="solarMethodCompare">Numerical cross-check · Simpson 1/3: <strong>733.386 kWh</strong> · Trapezoidal: <strong>733.371 kWh</strong> · |difference| 0.0151 kWh (200 subintervals each).</div>
+          <div class="readout-grid"><div class="readout"><span>Accumulated energy</span><b id="sEnergy">611.2</b><small>kWh</small></div><div class="readout"><span>Current power</span><b id="sPower">0.0</b><small>kW</small></div><div class="readout"><span>Daily potential</span><b id="sTotal">611.2</b><small>kWh</small></div></div>
+          <div class="simulation-stage"><span class="stage-label">SOLAR ARRAY / FIELD VIEW</span><canvas id="solarStage" aria-label="Animated solar farm"></canvas><span class="stage-scale">SUN TRACK / ARRAY OUTPUT</span></div>
+          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>POWER PROFILE / TIME</span><small>P(t) in kW</small></div><canvas class="plot" id="solarPlot" aria-label="Solar power graph"></canvas><div class="plot-legend"><span><i class="legend-dot"></i>Power profile</span><span><i class="legend-dot lime"></i>Accumulated interval</span></div></div><div class="method-note" id="solarMethodCompare">Numerical cross-check: composite Simpson 1/3 and composite trapezoidal rule, each with 200 subintervals.</div>
         </div>
       </div>
     </div>
     <div class="lab-panel" id="lab-tank" role="tabpanel" aria-labelledby="tab-tank">
       <div class="lab-grid">
         <div class="control-panel"><h3>Industrial fluid storage</h3><p>Track liquid volume in a process vessel as a pump transfers material through an inlet pipe. The simulation warns when capacity is exceeded.</p>
-          <div class="control"><label for="tFlow">Nominal inlet flow <output id="tFlowVal">35 L/min</output></label><input id="tFlow" type="range" min="0" max="100" value="35" style="--pct: 35.00%;"></div>
-          <div class="control"><label for="tTime">Elapsed time <output id="tTimeVal">60 min</output></label><input id="tTime" type="range" min="5" max="180" step="5" value="60" style="--pct: 31.43%;"></div>
-          <div class="control"><label for="tInitial">Initial volume <output id="tInitialVal">2,500 L</output></label><input id="tInitial" type="range" min="0" max="9500" step="100" value="2500" style="--pct: 26.32%;"></div>
-          <div class="control"><label for="tCapacity">Tank capacity <output id="tCapacityVal">10,000 L</output></label><input id="tCapacity" type="range" min="5000" max="20000" step="500" value="10000" style="--pct: 33.33%;"></div>
-          <div class="control"><label for="tAlarm">High-level alarm setpoint <output id="tAlarmVal">85% capacity</output></label><input id="tAlarm" type="range" min="50" max="100" step="1" value="85" style="--pct: 70.00%;"></div>
+          <div class="control"><label for="tFlow">Nominal inlet flow <output id="tFlowVal">35 L/min</output></label><input id="tFlow" type="range" min="0" max="100" value="35"></div>
+          <div class="control"><label for="tTime">Elapsed time <output id="tTimeVal">60 min</output></label><input id="tTime" type="range" min="5" max="180" step="5" value="60"></div>
+          <div class="control"><label for="tInitial">Initial volume <output id="tInitialVal">2,500 L</output></label><input id="tInitial" type="range" min="0" max="9500" step="100" value="2500"></div>
+          <div class="control"><label for="tCapacity">Tank capacity <output id="tCapacityVal">10,000 L</output></label><input id="tCapacity" type="range" min="5000" max="20000" step="500" value="10000"></div>
+          <div class="control"><label for="tAlarm">High-level alarm setpoint <output id="tAlarmVal">85% capacity</output></label><input id="tAlarm" type="range" min="50" max="100" step="1" value="85"></div>
           <div class="lab-actions"><button class="btn small" id="tAnimate">RUN FILL SEQUENCE ↗</button><button class="btn ghost small" id="tReset">RESET</button></div><div class="control-help">A mild sinusoidal pump ripple is applied: Q(t) = Q̄[1 + 0.15 sin(2πt/T)]. Its mean over the full interval is Q̄. The high-level alarm is adjustable; an independent overflow alarm activates above 100% capacity. Try 100 L/min for 60 min with the default settings to reach the 85% warning setpoint.</div>
         </div>
         <div>
           <div class="readout-grid"><div class="readout"><span>Final volume</span><b id="tVolume">4,600</b><small>L</small></div><div class="readout"><span>Tank level</span><b id="tLevel">46.0</b><small>% capacity</small></div><div class="readout"><span>Added fluid</span><b id="tAdded">2,100</b><small>L</small></div></div>
-          <div class="simulation-stage"><span class="stage-label">VESSEL / LIQUID LEVEL</span><canvas id="tankStage" aria-label="Industrial storage tank" width="2" height="2"></canvas><span class="stage-scale">CAPACITY / <span id="tankCapacityLabel">10,000 L</span></span></div>
-          <div class="tank-status" id="tankStatus" aria-live="polite"><span class="tank-status-dot" id="tankStatusDot"></span><span id="tankStatusText">NORMAL OPERATION · 46.0% CAPACITY · ALARM AT 85%</span></div>
+          <div class="simulation-stage"><span class="stage-label">VESSEL / LIQUID LEVEL</span><canvas id="tankStage" aria-label="Industrial storage tank"></canvas><span class="stage-scale">CAPACITY / <span id="tankCapacityLabel">10,000 L</span></span></div>
+          <div class="tank-status" id="tankStatus" aria-live="polite"><span class="tank-status-dot" id="tankStatusDot"></span><span id="tankStatusText">NORMAL OPERATION · 46.0% CAPACITY</span></div>
           <div class="warning hidden" id="tankWarning" role="alert" aria-live="assertive">HIGH-LEVEL WARNING — tank level has reached the alarm setpoint.</div>
-          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>INLET FLOW / ELAPSED TIME</span><small>Q(t) in L/min</small></div><canvas class="plot" id="tankPlot" aria-label="Tank flow rate graph" width="2" height="2"></canvas></div>
+          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>INLET FLOW / ELAPSED TIME</span><small>Q(t) in L/min</small></div><canvas class="plot" id="tankPlot" aria-label="Tank flow rate graph"></canvas></div>
         </div>
       </div>
     </div>
     <div class="lab-panel" id="lab-robot" role="tabpanel" aria-labelledby="tab-robot">
       <div class="lab-grid">
         <div class="control-panel"><h3>Robot motion control</h3><p>Use acceleration and initial velocity to generate a motion profile. Integrating velocity gives the robot's displacement along its guide rail.</p>
-          <div class="control"><label for="mAcc">Acceleration <output id="mAccVal">1.5 m/s²</output></label><input id="mAcc" type="range" min="-2" max="4" step=".1" value="1.5" style="--pct: 58.33%;"></div>
-          <div class="control"><label for="mV0">Initial velocity <output id="mV0Val">0.5 m/s</output></label><input id="mV0" type="range" min="0" max="5" step=".1" value=".5" style="--pct: 10.00%;"></div>
-          <div class="control"><label for="mTime">Simulation time <output id="mTimeVal">8 s</output></label><input id="mTime" type="range" min="1" max="20" value="8" style="--pct: 36.84%;"></div>
+          <div class="control"><label for="mAcc">Acceleration <output id="mAccVal">1.5 m/s²</output></label><input id="mAcc" type="range" min="-2" max="4" step=".1" value="1.5"></div>
+          <div class="control"><label for="mV0">Initial velocity <output id="mV0Val">0.5 m/s</output></label><input id="mV0" type="range" min="0" max="5" step=".1" value=".5"></div>
+          <div class="control"><label for="mTime">Simulation time <output id="mTimeVal">8 s</output></label><input id="mTime" type="range" min="1" max="20" value="8"></div>
           <div class="lab-actions"><button class="btn small" id="mPlay">PAUSE MOTION ‖</button><button class="btn ghost small" id="mReset">RESET</button></div><div class="control-help">Constant acceleration: v(t) = v₀ + at; displacement s(t) = ∫v(t)dt = v₀t + ½at². Negative displacement is allowed if the velocity reverses.</div>
         </div>
         <div>
-          <div class="readout-grid"><div class="readout"><span>Displacement</span><b id="mDisp">52.00</b><small>m</small></div><div class="readout"><span>Final velocity</span><b id="mVel">12.50</b><small>m/s</small></div><div class="readout"><span>Acceleration</span><b id="mAccRead">1.50</b><small>m/s²</small></div></div>
-          <div class="simulation-stage"><span class="stage-label">ROBOT / MOTION PROFILE</span><canvas id="robotStage" aria-label="Animated mobile robot" width="2" height="2"></canvas><span class="stage-scale">POSITION / GUIDE RAIL</span></div>
-          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>POSITION / TIME</span><small id="robotPlotMeta">0 — 8 s · x(t) in m</small></div><canvas class="plot" id="robotPositionPlot" aria-label="Robot position versus time graph" width="2" height="2"></canvas></div><div class="plot-box" style="margin-top:10px"><div class="plot-head"><span>VELOCITY / TIME</span><small>v(t) in m/s</small></div><canvas class="plot" id="robotVelocityPlot" aria-label="Robot velocity versus time graph" width="2" height="2"></canvas></div>
+          <div class="readout-grid"><div class="readout"><span>Displacement</span><b id="mDisp">52.0</b><small>m</small></div><div class="readout"><span>Final velocity</span><b id="mVel">12.5</b><small>m/s</small></div><div class="readout"><span>Acceleration</span><b id="mAccRead">1.50</b><small>m/s²</small></div></div>
+          <div class="simulation-stage"><span class="stage-label">ROBOT / MOTION PROFILE</span><canvas id="robotStage" aria-label="Animated mobile robot"></canvas><span class="stage-scale">POSITION / GUIDE RAIL</span></div>
+          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>POSITION / TIME</span><small id="robotPlotMeta">0 — 8 s · x(t) in m</small></div><canvas class="plot" id="robotPositionPlot" aria-label="Robot position versus time graph"></canvas></div><div class="plot-box" style="margin-top:10px"><div class="plot-head"><span>VELOCITY / TIME</span><small>v(t) in m/s</small></div><canvas class="plot" id="robotVelocityPlot" aria-label="Robot velocity versus time graph"></canvas></div>
         </div>
       </div>
     </div>
     <div class="lab-panel" id="lab-electric" role="tabpanel" aria-labelledby="tab-electric">
       <div class="lab-grid">
         <div class="control-panel"><h3>Electrical accumulation</h3><p>Monitor a DC load with a small current ripple. Integrate current to obtain transferred charge and integrate power to obtain delivered energy.</p>
-          <div class="control"><label for="eCurrent">Mean current <output id="eCurrentVal">8.0 A</output></label><input id="eCurrent" type="range" min=".5" max="30" step=".5" value="8" style="--pct: 25.42%;"></div>
-          <div class="control"><label for="eVoltage">Supply voltage <output id="eVoltageVal">230 V</output></label><input id="eVoltage" type="range" min="12" max="480" step="2" value="230" style="--pct: 46.58%;"></div>
-          <div class="control"><label for="eTime">Operating duration <output id="eTimeVal">4.0 h</output></label><input id="eTime" type="range" min=".5" max="24" step=".5" value="4" style="--pct: 14.89%;"></div>
+          <div class="control"><label for="eCurrent">Mean current <output id="eCurrentVal">8 A</output></label><input id="eCurrent" type="range" min=".5" max="30" step=".5" value="8"></div>
+          <div class="control"><label for="eVoltage">Supply voltage <output id="eVoltageVal">230 V</output></label><input id="eVoltage" type="range" min="12" max="480" step="2" value="230"></div>
+          <div class="control"><label for="eTime">Operating duration <output id="eTimeVal">4 h</output></label><input id="eTime" type="range" min=".5" max="24" step=".5" value="4"></div>
           <div class="lab-actions"><button class="btn small" id="ePlay">PAUSE MONITOR ‖</button><button class="btn ghost small" id="eReset">RESET</button></div><div class="control-help">The current model includes ±8% sinusoidal ripple with constant voltage: q = ∫I(t)dt and W = ∫V I(t)dt. Charge is shown in coulombs and energy in kWh.</div>
         </div>
         <div>
           <div class="readout-grid"><div class="readout"><span>Accumulated charge</span><b id="eCharge">115,200</b><small>C</small></div><div class="readout"><span>Energy delivered</span><b id="eEnergy">7.36</b><small>kWh</small></div><div class="readout"><span>Mean power</span><b id="ePower">1.84</b><small>kW</small></div></div>
-          <div class="simulation-stage"><span class="stage-label">DC CIRCUIT / POWER MONITOR</span><canvas id="electricStage" aria-label="Animated electrical circuit" width="2" height="2"></canvas><span class="stage-scale">VOLTAGE / CURRENT / LOAD</span></div>
-          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>CURRENT PROFILE / TIME</span><small>I(t) in A</small></div><canvas class="plot" id="electricPlot" aria-label="Electrical current graph" width="2" height="2"></canvas></div>
+          <div class="simulation-stage"><span class="stage-label">DC CIRCUIT / POWER MONITOR</span><canvas id="electricStage" aria-label="Animated electrical circuit"></canvas><span class="stage-scale">VOLTAGE / CURRENT / LOAD</span></div>
+          <div class="plot-box" style="margin-top:12px"><div class="plot-head"><span>CURRENT PROFILE / TIME</span><small>I(t) in A</small></div><canvas class="plot" id="electricPlot" aria-label="Electrical current graph"></canvas></div>
         </div>
       </div>
     </div>
@@ -552,27 +562,27 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
           <div class="control"><label>Preset log</label><div class="segmented" id="dataPreset"><button type="button" data-preset="solar" class="active">SOLAR</button><button type="button" data-preset="flow">FLOW</button><button type="button" data-preset="current">CURRENT</button></div></div>
           <div class="control"><label><span>Time <span id="dataTUnit">h</span> / rate <span id="dataVUnit">kW</span></span></label>
             <div class="sample-head"><span>#</span><span>TIME</span><span>RATE</span><span></span></div>
-            <div class="sample-table" id="dataRows"><div class="sample-row"><span class="sample-idx">01</span><input class="sample-t" type="number" step="any" value="0" aria-label="Sample 1 time"><input class="sample-v" type="number" step="any" value="0" aria-label="Sample 1 rate"><button class="sample-del" type="button" aria-label="Remove sample 1">×</button></div><div class="sample-row"><span class="sample-idx">02</span><input class="sample-t" type="number" step="any" value="1" aria-label="Sample 2 time"><input class="sample-v" type="number" step="any" value="64" aria-label="Sample 2 rate"><button class="sample-del" type="button" aria-label="Remove sample 2">×</button></div><div class="sample-row"><span class="sample-idx">03</span><input class="sample-t" type="number" step="any" value="2" aria-label="Sample 3 time"><input class="sample-v" type="number" step="any" value="121" aria-label="Sample 3 rate"><button class="sample-del" type="button" aria-label="Remove sample 3">×</button></div><div class="sample-row"><span class="sample-idx">04</span><input class="sample-t" type="number" step="any" value="3" aria-label="Sample 4 time"><input class="sample-v" type="number" step="any" value="148" aria-label="Sample 4 rate"><button class="sample-del" type="button" aria-label="Remove sample 4">×</button></div><div class="sample-row"><span class="sample-idx">05</span><input class="sample-t" type="number" step="any" value="4" aria-label="Sample 5 time"><input class="sample-v" type="number" step="any" value="138" aria-label="Sample 5 rate"><button class="sample-del" type="button" aria-label="Remove sample 5">×</button></div><div class="sample-row"><span class="sample-idx">06</span><input class="sample-t" type="number" step="any" value="5" aria-label="Sample 6 time"><input class="sample-v" type="number" step="any" value="152" aria-label="Sample 6 rate"><button class="sample-del" type="button" aria-label="Remove sample 6">×</button></div><div class="sample-row"><span class="sample-idx">07</span><input class="sample-t" type="number" step="any" value="6" aria-label="Sample 7 time"><input class="sample-v" type="number" step="any" value="131" aria-label="Sample 7 rate"><button class="sample-del" type="button" aria-label="Remove sample 7">×</button></div><div class="sample-row"><span class="sample-idx">08</span><input class="sample-t" type="number" step="any" value="7" aria-label="Sample 8 time"><input class="sample-v" type="number" step="any" value="102" aria-label="Sample 8 rate"><button class="sample-del" type="button" aria-label="Remove sample 8">×</button></div><div class="sample-row"><span class="sample-idx">09</span><input class="sample-t" type="number" step="any" value="8" aria-label="Sample 9 time"><input class="sample-v" type="number" step="any" value="58" aria-label="Sample 9 rate"><button class="sample-del" type="button" aria-label="Remove sample 9">×</button></div><div class="sample-row"><span class="sample-idx">10</span><input class="sample-t" type="number" step="any" value="9" aria-label="Sample 10 time"><input class="sample-v" type="number" step="any" value="21" aria-label="Sample 10 rate"><button class="sample-del" type="button" aria-label="Remove sample 10">×</button></div><div class="sample-row"><span class="sample-idx">11</span><input class="sample-t" type="number" step="any" value="10" aria-label="Sample 11 time"><input class="sample-v" type="number" step="any" value="0" aria-label="Sample 11 rate"><button class="sample-del" type="button" aria-label="Remove sample 11">×</button></div></div>
+            <div class="sample-table" id="dataRows"></div>
           </div>
           <div class="lab-actions"><button class="btn ghost small" id="dataAdd" type="button">ADD SAMPLE +</button><button class="btn ghost small" id="dataReset" type="button">RESET LOG</button></div>
           <div class="control-help">Total = ∫ rate dt over the sample log. Trapezoidal rule handles uneven timestamps; Simpson's 1/3 is applied automatically when the samples are evenly spaced in an odd count. Blank or invalid rows are ignored.</div>
         </div>
         <div>
-          <div class="readout-grid"><div class="readout"><span>Accumulated total</span><b id="dataTotal">935.00</b><small id="dataUnit">kWh</small></div><div class="readout"><span>Samples used</span><b id="dataCount">11</b><small>measured points</small></div><div class="readout"><span>Time span</span><b id="dataSpan">10.0</b><small id="dataSpanUnit">h</small></div></div>
-          <div class="plot-box"><div class="plot-head"><span>MEASURED RATE / TIME</span><small id="dataPlotMeta">11 samples · kW vs h</small></div><canvas class="plot" id="dataPlot" aria-label="Measured rate versus time with integrated area" width="2" height="2"></canvas><div class="plot-legend"><span><i class="legend-dot"></i>Measured samples</span><span><i class="legend-dot lime"></i>Integrated area</span></div></div>
-          <div class="method-note" id="dataMethodNote">Trapezoidal: <strong>935.000 kWh</strong> · Simpson 1/3: <strong>948.000 kWh</strong> · |difference| 13.000 kWh. Even spacing lets Simpson use quadratic arcs between samples.</div>
+          <div class="readout-grid"><div class="readout"><span>Accumulated total</span><b id="dataTotal">—</b><small id="dataUnit">kWh</small></div><div class="readout"><span>Samples used</span><b id="dataCount">0</b><small>measured points</small></div><div class="readout"><span>Time span</span><b id="dataSpan">0.0</b><small id="dataSpanUnit">h</small></div></div>
+          <div class="plot-box"><div class="plot-head"><span>MEASURED RATE / TIME</span><small id="dataPlotMeta">sampled points</small></div><canvas class="plot" id="dataPlot" aria-label="Measured rate versus time with integrated area"></canvas><div class="plot-legend"><span><i class="legend-dot"></i>Measured samples</span><span><i class="legend-dot lime"></i>Integrated area</span></div></div>
+          <div class="method-note" id="dataMethodNote">Load a preset log or add samples to begin.</div>
         </div>
       </div>
     </div>
   </div>
-  <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:14px;font:9px var(--mono);color:#7088A8"><span>METHODS: MIDPOINT / TRAPEZOIDAL / SIMPSON 1⁄3</span><span id="completionText">LABS INTERACTED: 2 / 6</span></div>
+  <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:14px;font:9px var(--mono);color:#7088A8"><span>METHODS: MIDPOINT / TRAPEZOIDAL / SIMPSON 1⁄3</span><span id="completionText">LABS INTERACTED: 0 / 6</span></div>
 </section>
 
 <section class="section twin-section" id="twin">
-  <div class="section-head reveal in" style="transition-delay: 65ms;"><div><div class="eyebrow">03 / ADVANCED 3D ENVIRONMENT</div><h2>INSPECT THE<br>ENGINEERING TWIN.</h2></div><p>Explore a rotatable Canvas-based 3D model. Drag to orbit, scroll to zoom, and switch between equipment scenes. This is a live geometric renderer, not a static illustration.</p></div>
-  <div class="twin-layout reveal in" style="transition-delay: 130ms;">
-    <div class="twin-view"><canvas id="twinCanvas" aria-label="Interactive 3D industrial engineering model" width="2313" height="1120"></canvas><div class="twin-hud"><b id="twinName">SOLAR / 3D</b><span id="twinSub">60° THREE-QUARTER B-ROLL · SUN + MOUNTING FRAME · DRAG TO ORBIT</span></div><div class="twin-hud-right"><button id="twinAuto">AUTO ORBIT: ON</button><button id="twinReset">RESET VIEW</button></div><div class="twin-bottom"><span>AZIMUTH <b id="twinYaw">017°</b> / ELEVATION <b id="twinPitch">052°</b></span><span>SCROLL / PINCH TO ZOOM</span></div></div>
-    <aside class="twin-info"><div class="eyebrow">LIVE 3D MODEL</div><h3 id="twinTitle">Photovoltaic field</h3><p id="twinDesc">Cinematic 60-degree elevated three-quarter B-roll view of a photovoltaic installation, showing the panel faces, aluminium mounting rails, angled support legs, grounded foot plates and the sun with visible irradiance rays. The camera looks down across the array while slowly orbiting around the installation.</p><div class="scene-switcher" aria-label="Engineering asset switcher">
+  <div class="section-head reveal"><div><div class="eyebrow">03 / ADVANCED 3D ENVIRONMENT</div><h2>INSPECT THE<br>ENGINEERING TWIN.</h2></div><p>Explore a rotatable Canvas-based 3D model. Drag to orbit, scroll to zoom, and switch between equipment scenes. This is a live geometric renderer, not a static illustration.</p></div>
+  <div class="twin-layout reveal">
+    <div class="twin-view"><canvas id="twinCanvas" aria-label="Interactive 3D industrial engineering model"></canvas><div class="twin-hud"><b id="twinName">SOLAR ARRAY / 3D</b><span id="twinSub">60° THREE-QUARTER B-ROLL · AUTO ORBIT</span></div><div class="twin-hud-right"><button id="twinAuto">AUTO ORBIT: ON</button><button id="twinReset">RESET VIEW</button></div><div class="twin-bottom"><span>AZIMUTH <b id="twinYaw">035°</b> / ELEVATION <b id="twinPitch">024°</b></span><span>SCROLL / PINCH TO ZOOM</span></div></div>
+    <aside class="twin-info"><div class="eyebrow">LIVE 3D MODEL</div><h3 id="twinTitle">Photovoltaic field</h3><p id="twinDesc">A cinematic 60° elevated three-quarter view of a photovoltaic installation. The camera is pulled back to frame the full panel array, raised mounting stands and the sun together. A restrained orbit keeps the solar modules and sun visible while revealing the installation depth.</p><div class="scene-switcher" aria-label="Engineering asset switcher">
       <div class="scene-switch-meta"><span>SCENE</span><b id="twinIndex">01 / 04</b></div>
       <div class="scene-switch-controls">
         <button type="button" id="twinPrev" class="scene-arrow" aria-label="Previous engineering asset" title="Previous asset">‹</button>
@@ -580,30 +590,30 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
         <button type="button" id="twinNext" class="scene-arrow" aria-label="Next engineering asset" title="Next asset">›</button>
       </div>
       <div class="scene-switch-hint">USE ARROWS TO CYCLE THROUGH ENGINEERING ASSETS</div>
-    </div><div class="control"><label for="twinZoom">Camera distance <output id="twinZoomVal">1.00×</output></label><input id="twinZoom" type="range" min=".65" max="1.8" step=".05" value="1" style="--pct: 0.00%;"></div><div class="hotspot-list" id="hotspots"><div class="hotspot"><span>PV MODULES</span><b>ASSET / 01</b></div><div class="hotspot"><span>MOUNTING STANDS</span><b>ASSET / 02</b></div><div class="hotspot"><span>SUN / IRRADIANCE</span><b>ASSET / 03</b></div></div><div class="method-note">INTERACTION: pointer drag rotates the scene in two axes. Wheel or pinch adjusts camera distance. Auto orbit can be paused for inspection.</div></aside>
+    </div><div class="control"><label for="twinZoom">Camera distance <output id="twinZoomVal">1.0×</output></label><input id="twinZoom" type="range" min=".65" max="1.8" step=".05" value="1"></div><div class="hotspot-list" id="hotspots"><div class="hotspot"><span>PV MODULES</span><b>ARRAY / 01</b></div><div class="hotspot"><span>SUPPORT FRAME</span><b>STRUCTURE / 02</b></div><div class="hotspot"><span>GROUND PLANE</span><b>REFERENCE / 03</b></div></div><div class="method-note">INTERACTION: pointer drag rotates the scene in two axes. Wheel or pinch adjusts camera distance. Auto orbit can be paused for inspection.</div></aside>
   </div>
 </section>
 
 <section class="section" id="theory">
-  <div class="section-head reveal in" style="transition-delay: 195ms;"><div><div class="eyebrow">04 / MATHEMATICAL VISUALISATION ENGINE</div><h2>THE MATHEMATICS<br>BEHIND THE MOTION.</h2></div><p>Integration is the continuous sum of infinitely many small contributions. In engineering, those contributions may represent power, flow, velocity, force or production rate.</p></div>
+  <div class="section-head reveal"><div><div class="eyebrow">04 / MATHEMATICAL VISUALISATION ENGINE</div><h2>THE MATHEMATICS<br>BEHIND THE MOTION.</h2></div><p>Integration is the continuous sum of infinitely many small contributions. In engineering, those contributions may represent power, flow, velocity, force or production rate.</p></div>
   <div class="theory-grid">
-    <article class="theory-card reveal in" style="transition-delay: 0ms;"><div class="n">CONCEPT / 01</div><h3>Accumulation</h3><p>If r(t) is a rate, its integral over time gives the total accumulated quantity. Units multiply: (units/s) × s = units.</p><div class="eq">A = ∫ₐᵇ r(t) dt</div></article>
-    <article class="theory-card reveal in" style="transition-delay: 65ms;"><div class="n">CONCEPT / 02</div><h3>Definite integral</h3><p>The definite integral returns a signed net accumulation over an interval. Area below the axis is counted negatively.</p><div class="eq">∫ₐᵇ f(x) dx = F(b) − F(a)</div></article>
-    <article class="theory-card reveal in" style="transition-delay: 130ms;"><div class="n">CONCEPT / 03</div><h3>Indefinite integral</h3><p>An antiderivative is a family of functions whose derivative equals the integrand. The arbitrary constant is essential.</p><div class="eq">∫ f(x) dx = F(x) + C</div></article>
-    <article class="theory-card reveal in" style="transition-delay: 195ms;"><div class="n">CONCEPT / 04</div><h3>Fundamental theorem</h3><p>Differentiation and integration are inverse operations under the theorem's continuity conditions.</p><div class="eq">d/dx ∫ₐˣ f(t)dt = f(x)</div></article>
+    <article class="theory-card reveal"><div class="n">CONCEPT / 01</div><h3>Accumulation</h3><p>If r(t) is a rate, its integral over time gives the total accumulated quantity. Units multiply: (units/s) × s = units.</p><div class="eq">A = ∫ₐᵇ r(t) dt</div></article>
+    <article class="theory-card reveal"><div class="n">CONCEPT / 02</div><h3>Definite integral</h3><p>The definite integral returns a signed net accumulation over an interval. Area below the axis is counted negatively.</p><div class="eq">∫ₐᵇ f(x) dx = F(b) − F(a)</div></article>
+    <article class="theory-card reveal"><div class="n">CONCEPT / 03</div><h3>Indefinite integral</h3><p>An antiderivative is a family of functions whose derivative equals the integrand. The arbitrary constant is essential.</p><div class="eq">∫ f(x) dx = F(x) + C</div></article>
+    <article class="theory-card reveal"><div class="n">CONCEPT / 04</div><h3>Fundamental theorem</h3><p>Differentiation and integration are inverse operations under the theorem's continuity conditions.</p><div class="eq">d/dx ∫ₐˣ f(t)dt = f(x)</div></article>
   </div>
-  <div class="learning-strip reveal in" style="transition-delay: 0ms;"><div><div class="eyebrow">THE ENGINEERING IDEA</div><h3>Rates describe what is happening now. Integrals tell you what has happened in total.</h3></div><div><div class="equation-large">Quantity = ∫ Rate(t) dt</div><p>For example, power is the rate of energy transfer. Integrating power over time gives energy. Velocity is the rate of change of position. Integrating velocity gives displacement. Always check the physical units before interpreting the result.</p></div></div>
+  <div class="learning-strip reveal"><div><div class="eyebrow">THE ENGINEERING IDEA</div><h3>Rates describe what is happening now. Integrals tell you what has happened in total.</h3></div><div><div class="equation-large">Quantity = ∫ Rate(t) dt</div><p>For example, power is the rate of energy transfer. Integrating power over time gives energy. Velocity is the rate of change of position. Integrating velocity gives displacement. Always check the physical units before interpreting the result.</p></div></div>
 </section>
 
 
 <section class="section future-section" id="future-scope">
-  <div class="section-head reveal in" style="transition-delay: 65ms;">
+  <div class="section-head reveal">
     <div><div class="eyebrow">05 / FUTURE SCOPE</div><h2>THREE HORIZONS.<br>ONE HONEST PATH.</h2></div>
     <p>Today the platform integrates idealised curves and pasted sample logs. Reaching a plant floor is a sequence of small, verifiable steps — each one has to pass before the next is allowed to start.</p>
   </div>
-  <div class="future-status reveal in" style="transition-delay: 130ms;"><span class="future-status-dot"></span><span>PROPOSED EXTENSIONS</span><b>NOTHING HERE IS CONNECTED TO LIVE INDUSTRIAL EQUIPMENT</b></div>
+  <div class="future-status reveal"><span class="future-status-dot"></span><span>PROPOSED EXTENSIONS</span><b>NOTHING HERE IS CONNECTED TO LIVE INDUSTRIAL EQUIPMENT</b></div>
 
-  <div class="fut-pipeline reveal in" style="transition-delay: 195ms;">
+  <div class="fut-pipeline reveal">
     <div class="fut-pipeline-head"><span class="eyebrow">SEQUENCE</span><span class="fut-note">EACH STAGE GATES THE NEXT</span></div>
     <ol class="fut-steps">
       <li><b>01</b><strong>ACQUIRE</strong><span>Calibrated, time-stamped samples</span></li>
@@ -614,7 +624,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
   </div>
 
   <div class="fut-horizons">
-    <article class="fut-card reveal in" style="transition-delay: 0ms;">
+    <article class="fut-card reveal">
       <div class="fut-card-head"><span class="fut-h">HORIZON 01</span><span class="fut-when">0 – 6 MONTHS</span></div>
       <h3>Instrument the accumulation</h3>
       <p>Turn the sample-log lab into a real ingestion path: file or gateway pull, an explicit sampling interval, calibration status and gap handling. Every total leaves the engine with the interval it was computed over.</p>
@@ -626,7 +636,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
       <div class="fut-foot"><span class="fut-meter" role="img" aria-label="Readiness 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span><span class="fut-state">SCOPED</span></div>
     </article>
 
-    <article class="fut-card reveal in" style="transition-delay: 65ms;">
+    <article class="fut-card reveal">
       <div class="fut-card-head"><span class="fut-h">HORIZON 02</span><span class="fut-when">6 – 12 MONTHS</span></div>
       <h3>Go spatial and adaptive</h3>
       <p>Extend the one-variable engine to surfaces and volumes — mass from density, distributed load, stored thermal energy — and let the solver refine only where the curvature demands it.</p>
@@ -638,7 +648,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
       <div class="fut-foot"><span class="fut-meter" role="img" aria-label="Readiness 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span><span class="fut-state">IN DESIGN</span></div>
     </article>
 
-    <article class="fut-card reveal in" style="transition-delay: 130ms;">
+    <article class="fut-card reveal">
       <div class="fut-card-head"><span class="fut-h">HORIZON 03</span><span class="fut-when">12 – 24 MONTHS</span></div>
       <h3>Compare, never control</h3>
       <p>A read-only twin for one vessel or one array: log measured against modelled curves, flag drift, keep every threshold event. Any write path stays locked behind independent safety review.</p>
@@ -651,7 +661,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
     </article>
   </div>
 
-  <div class="fut-bounds reveal in" style="transition-delay: 195ms;">
+  <div class="fut-bounds reveal">
     <div>
       <div class="eyebrow">WHAT THIS IS</div>
       <ul>
@@ -673,16 +683,16 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
 </section>
 
 <section class="section" id="challenges">
-  <div class="section-head reveal in" style="transition-delay: 0ms;"><div><div class="eyebrow">06 / ENGINEERING CHALLENGES</div><h2>YOUR TURN TO<br>RUN THE NUMBERS.</h2></div><p>Make a prediction, enter a numerical result, and compare it with the expected engineering quantity. Hints are available before you submit.</p></div>
-  <div class="challenge-wrap reveal in" style="transition-delay: 65ms;">
-    <div class="challenge-main"><div class="challenge-kicker" id="challengeTag">CHALLENGE 01 / SOLAR ENERGY</div><h3 id="challengeTitle">Estimate the energy harvest.</h3><p id="challengeText">A small solar array delivers constant power of 4 kW for 5 hours. Ignoring system losses, how much electrical energy is generated?</p><div class="challenge-equation" id="challengeEquation">E = P × t</div><div class="answer-row"><input type="number" id="challengeAnswer" placeholder="Enter your answer" step="any" aria-label="Challenge answer"><button class="btn" id="checkAnswer">CHECK ANSWER ↗</button></div><div class="feedback" id="challengeFeedback">Enter a value, then check your result. Units: kWh.</div><div class="lab-actions"><button class="btn ghost small" id="challengeHint">SHOW HINT</button><button class="btn ghost small" id="nextChallenge">NEXT CHALLENGE →</button></div></div>
-    <aside class="challenge-side"><div class="challenge-kicker">LEARNING PROGRESS</div><div class="score" id="challengeScore">00</div><p>POINTS EARNED</p><div class="challenge-progress"><span id="challengeProgress" style="width: 0%;"></span></div><p id="challengeProgressText">0 of 5 challenges solved. Correct answers earn 20 points each.</p><div class="hotspot-list"><div class="hotspot"><span>ACCURACY</span><b id="challengeAccuracy">0%</b></div><div class="hotspot"><span>STATUS</span><b id="challengeStatus">IN PROGRESS</b></div></div></aside>
+  <div class="section-head reveal"><div><div class="eyebrow">06 / ENGINEERING CHALLENGES</div><h2>YOUR TURN TO<br>RUN THE NUMBERS.</h2></div><p>Make a prediction, enter a numerical result, and compare it with the expected engineering quantity. Hints are available before you submit.</p></div>
+  <div class="challenge-wrap reveal">
+    <div class="challenge-main"><div class="challenge-kicker" id="challengeTag">CHALLENGE 01 / SOLAR ENERGY</div><h3 id="challengeTitle">Estimate the energy harvest.</h3><p id="challengeText">A small solar array delivers constant power of 4 kW for 5 hours. Ignoring system losses, how much electrical energy is generated?</p><div class="challenge-equation" id="challengeEquation">E = P × t</div><div class="answer-row"><input type="number" id="challengeAnswer" placeholder="Enter your answer" step="any" aria-label="Challenge answer"><button class="btn" id="checkAnswer">CHECK ANSWER ↗</button></div><div class="feedback" id="challengeFeedback">Enter a value, then check your result. Units matter: energy is measured in kWh.</div><div class="lab-actions"><button class="btn ghost small" id="challengeHint">SHOW HINT</button><button class="btn ghost small" id="nextChallenge">NEXT CHALLENGE →</button></div></div>
+    <aside class="challenge-side"><div class="challenge-kicker">LEARNING PROGRESS</div><div class="score" id="challengeScore">00</div><p>POINTS EARNED</p><div class="challenge-progress"><span id="challengeProgress"></span></div><p id="challengeProgressText">0 of 5 challenges solved. Correct answers earn 20 points each.</p><div class="hotspot-list"><div class="hotspot"><span>ACCURACY</span><b id="challengeAccuracy">0%</b></div><div class="hotspot"><span>STATUS</span><b id="challengeStatus">IN PROGRESS</b></div></div></aside>
   </div>
 </section>
 
 <section class="section" id="glossary">
-  <div class="section-head reveal in" style="transition-delay: 130ms;"><div><div class="eyebrow">07 / TECHNICAL REFERENCE</div><h2>THE ENGINEERING<br>GLOSSARY.</h2></div><p>A quick reference for the mathematical and physical terms used throughout the virtual laboratories.</p></div>
-  <div class="glossary reveal in" style="transition-delay: 195ms;">
+  <div class="section-head reveal"><div><div class="eyebrow">07 / TECHNICAL REFERENCE</div><h2>THE ENGINEERING<br>GLOSSARY.</h2></div><p>A quick reference for the mathematical and physical terms used throughout the virtual laboratories.</p></div>
+  <div class="glossary reveal">
     <details><summary>Integrand</summary><p>The function being integrated. In a rate model, the integrand is often the instantaneous rate of accumulation.</p></details>
     <details><summary>Antiderivative</summary><p>A function F(x) whose derivative is f(x). The indefinite integral is F(x) + C.</p></details>
     <details><summary>Riemann sum</summary><p>A finite sum of rectangle areas used to approximate a definite integral over a partition.</p></details>
@@ -694,7 +704,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
     <details><summary>Dimensional consistency</summary><p>An equation is dimensionally consistent when each term has compatible physical units.</p></details>
   </div>
 </section>
-<footer class="footer"><div class="footer-top"><div><div class="eyebrow">MATRIX ALGEBRA &amp; CALCULUS / MAC</div><h2>FROM MATHEMATICAL THEORY<br><span>TO INDUSTRIAL REALITY.</span></h2></div><p>INTEGRAL — Mathematics in Motion is an experiential learning environment demonstrating how definite integrals model accumulation in energy, process systems, robotics, manufacturing and electrical engineering.</p></div><div class="footer-bottom"><span>INTEGRAL / MATHEMATICS IN MOTION</span><span>ENGINEERING MATHEMATICS · INTEGRATION</span><span>INTERACTIVE VIRTUAL LABORATORY</span></div></footer>
+<footer class="footer"><div class="footer-top"><div><div class="eyebrow">MATRIX ALGEBRA & CALCULUS / MAC</div><h2>FROM MATHEMATICAL THEORY<br><span>TO INDUSTRIAL REALITY.</span></h2></div><p>INTEGRAL — Mathematics in Motion is an experiential learning environment demonstrating how definite integrals model accumulation in energy, process systems, robotics, manufacturing and electrical engineering.</p></div><div class="footer-bottom"><span>INTEGRAL / MATHEMATICS IN MOTION</span><span>ENGINEERING MATHEMATICS · INTEGRATION</span><span>INTERACTIVE VIRTUAL LABORATORY</span></div></footer>
 
 <button class="help-fab" id="helpFab" aria-label="Open help">HELP</button>
 <div class="modal-backdrop" id="helpModal" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
@@ -719,7 +729,7 @@ body::-webkit-scrollbar-thumb:hover{background:rgba(76,141,255,.55)}
         <h4 id="helpStepTitle">Welcome to INTEGRAL.</h4>
         <p id="helpStepBody">This is an engineering mathematics environment built around one idea: integration converts a changing rate into an accumulated quantity. Start with the industrial overview, then run experiments in the virtual labs.</p>
         <div class="help-callout"><b>WHAT TO DO</b><p id="helpStepAction">Use the top navigation or the buttons in the opening section to move through the platform. The floating HELP control remains available as you explore.</p></div>
-        <div class="help-detail-actions"><button class="btn ghost small" id="helpPrev" type="button" disabled="">← BACK</button><button class="btn small" id="helpNext" type="button">NEXT STEP ↗</button><a class="btn lime small" id="helpGo" href="http://127.0.0.1:50328/index.html#home">TAKE ME THERE ↗</a></div>
+        <div class="help-detail-actions"><button class="btn ghost small" id="helpPrev" type="button" disabled>← BACK</button><button class="btn small" id="helpNext" type="button">NEXT STEP ↗</button><a class="btn lime small" id="helpGo" href="#home">TAKE ME THERE ↗</a></div>
       </article>
     </div>
     <details class="help-reference"><summary>OPEN THE COMPLETE LAB OPERATING REFERENCE</summary>
@@ -1126,6 +1136,5 @@ function init(){updateRiemann();updateSolar();updateTank();updateRobot();updateE
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
 </script>
-
-
-</body></html>
+</body>
+</html>
